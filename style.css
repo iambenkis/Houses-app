@@ -736,7 +736,7 @@ form {
 
     
 .popup-content{
-    width: 96vw;
+    width: 90vw;
     height: 75vh;  
     left: 0%; 
     top: 15%;
@@ -749,15 +749,21 @@ form {
     width: 250px;
     height: 250px;
     position: absolute;
-    left: 10%;
-    top: 5%; 
+    left: 5%;
+    top: 10%; 
 }
 
 .popText{
     color: #fff;
     position: absolute;
     left: 10%;
-    top: 50%;  
+    top: 55%;  
+}
+
+.leave{
+    position: absolute;
+    left: 90%;
+    top: -170%; 
 }
 
 /* 
