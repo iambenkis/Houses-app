@@ -1,0 +1,21 @@
+ 
+[ 
+    {
+     "name" : "Benjamin",
+     "username" : "Benkis",
+     "isCoder" : true,
+     "hobbies" : ["football","baseball","singing"]
+    } ,
+    {
+     "name" : "Camille",
+     "username" : "camilux",
+     "isCoder" : false,
+     "hobbies" : ["football","baseball","singing"]
+    } ,
+    {
+     "name" : "Joel",
+     "username" : "jklm",
+     "isCoder" : true,
+     "hobbies" : ["football","baseball","singing"]
+    } 
+ ]
