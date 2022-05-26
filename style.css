@@ -177,6 +177,103 @@ a{
     cursor: pointer;
 }
 
+.hidden {
+    display: none;
+}
+
+
+.modal-container{ 
+    position: fixed;
+    width: 100vw;
+    height: 100vh;    
+    left: 0;
+    bottom: 0%;
+    filter: blur(15px); 
+    background-color: rgba(1, 9, 51, 0.658); 
+    z-index: 30000; 
+    border: 2px solid #fff;
+    display: none;
+}
+
+ 
+
+.popup-content{
+    width: 60vw;
+    height: 75vh;
+    background-color: #fff;
+    background-color: rgba(2, 16, 61, 0.918);
+    position: fixed;
+    z-index: 100;
+    left: 22%; 
+    top: 15%;
+    /* transform: translate(-50%,-50%); */
+    border-radius: 10px;
+    z-index: 40000; 
+   
+}
+
+ 
+
+.popitem-img{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    left: 5%;
+    top: 15%; 
+}
+
+.popText{
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 30%; 
+}
+
+.fa-star {
+    color: orange;
+}
+
+.leave{
+    position: absolute;
+    left: 90%;
+    top: -90%;
+    z-index: 3;
+    cursor: pointer;
+    transition: .5s;
+}
+
+/* .leave:nth-child(1){
+    position: absolute;
+    left: 90%;
+    top: -60%;
+    z-index: 3;
+    cursor: pointer;
+    transition: .5s;
+} */
+
+
+.leave .fa-x{
+    font-size: 4rem;
+    
+    /* cursor: pointer; */
+}
+
+.leave:hover{ 
+    color: rgb(73, 73, 105);
+    /* cursor: pointer; */
+}
+
+
+.popitem-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.active {
+    display: block; 
+}
+
 
 
 .item-img img{
@@ -589,9 +686,7 @@ form input[type = "submit"]:hover{
         text-align: center;
     }
 
-    .other div h2 {
-        
-    }
+     
     .contact{
         display: flex;
         flex-direction: column;  
@@ -621,6 +716,9 @@ form textarea {
 
 
 
+
+
+
 form {
     margin: 0 1rem;
 }
@@ -635,4 +733,47 @@ form {
         left: 20%;
         font-weight: 600;
     }
+
+    
+.popup-content{
+    width: 96vw;
+    height: 75vh;  
+    left: 0%; 
+    top: 15%;
+    margin: auto .5rem;
+    overflow: scroll;
+}
+
+
+.popitem-img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 10%;
+    top: 5%; 
+}
+
+.popText{
+    color: #fff;
+    position: absolute;
+    left: 10%;
+    top: 50%;  
+}
+
+/* 
+.popup-content{
+    width: 60vw;
+    height: 75vh;
+    background-color: #fff;
+    background-color: rgba(2, 16, 61, 0.918);
+    position: fixed;
+    z-index: 100;
+    
+    /* transform: translate(-50%,-50%); */
+    /* border-radius: 10px;
+    z-index: 40000; 
+   
+} */  
+
+
 }
