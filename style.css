@@ -766,6 +766,10 @@ form {
     top: -170%; 
 }
 
+.header p {  
+    padding: 1rem 2rem;  
+}
+
 /* 
 .popup-content{
     width: 60vw;
